@@ -1,3 +1,10 @@
+## Local setup
+
+```
+python -m pip install --upgrade --no-cache-dir sphinx readthedocs-sphinx-ext myst-parser
+python -m pip install --exists-action=w --no-cache-dir -r docs/requirements.txt
+```
+
 ### Local build
 
 ```
